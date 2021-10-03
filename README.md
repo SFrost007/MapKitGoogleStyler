@@ -11,6 +11,10 @@ MapKitGoogleStyler allows you to include Google Maps JSON styles, that you can c
 
 A post explaining this in detail can be found here: https://medium.com/@ortizfernandomartin/customize-mapkits-mkmapview-with-google-maps-styling-wizard-a5dcc095e19f#.ss3dencgh
 
+## Fork Notes
+
+Forked from the original repository to change the MapStyle.baseURL to use satellite tiles rather than maps. This is only tested when using the `buildOverlay(with jsonArray:` initialiser and specifying an empty json config.
+
 ## Example
 
 Using this can't be simpler. The code is self explanatory
